@@ -1,0 +1,658 @@
+/* Resetting some default styles for the body */
+body {
+    width: 100%;
+    height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: white;
+      background-color: #11113A;
+  }
+  
+  /* Resetting heading styles and providing some default styles */
+  h1, h3 {
+      color: white;
+      margin: 0;
+  }
+  
+  /* Make images responsive and add some space */
+  img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+  
+  /* Styling h1 with custom font family and size */
+  h1 {
+    font-family: "Azeret Mono", monospace;
+     font-weight: 550;
+      font-size: 23px;
+  }
+  
+  /* Styling h3 with custom font family and size */
+  h3 {
+    font-family: "Azeret Mono", monospace;
+      font-size: 20px;
+  }
+  
+  #header-right {
+      float: right;
+      position: relative;
+      bottom: 96px;
+    right: 30px
+  }
+  /* Styling header buttons */
+  .header-button {
+      font-family: "Jura", sans-serif;
+      background-color: transparent;
+      color: white;
+      border: 1px solid #5566B8;
+      padding: 8px 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      margin: 5px;
+      font-size: 16px;
+      display: inline-block;  
+      margin-top: 10px;
+  
+    }
+  
+  /* Change background color on hover */
+  .header-button:hover {
+      color: black;
+      background-color: #F9EAF5;
+  }
+  
+  /*.nav-bar {
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.06);
+    background: linear-gradient(to right, #2A3670, #11113A); /* Adjust gradient colors as needed */
+  
+  .nav-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 20px; /* Adjust height as needed */
+      background-color: rgba(255, 255, 255, 0.06);
+      background: #11113A
+      border-radius: 0.5px;
+      z-index: 1000;
+      padding: 1rem; /* Add padding to center content vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  
+  
+  
+  
+  /* Header ruleset */
+  .header-container {
+      display: flex;
+    flex-direction: row; /* or column based on your preference */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; 
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      text-align: left;
+      margin-left: 30px; /* Adjusted the left margin */
+    margin-top: 25px;
+  }
+  
+  
+  /* Set the width of header-left */
+  #header-left .header-button, .header-container{
+      margin-bottom: 30px; /* Add margin between header sections and buttons */
+  }
+  
+  /* Style category images */
+  .category-image {
+      width: 100%;
+    margin-top: 20px; /* Add margin-top to create space */
+      margin-bottom: 20px;
+      max-width: 300px; /* Adjust the max-width as needed */
+      margin-right: 40px; /* Add space to the right of each image */
+    padding: 50px;
+    border-bottom: 2px solid #5566B8; 
+  }
+  
+  #header-left {
+    position: relative;
+    margin-top: 70px; /* Adjust the margin-top as needed */
+    width: 100%;
+    border-bottom: 2px solid #5566B8; /* Purple line */
+    padding-bottom: 5px; /* Adjust the space between the line and buttons */
+  
+  }
+  
+  #special-image {
+      width: 600px; /* Adjust the width as needed for a larger image */
+    height: 350px;
+      margin: 0; /* Reset margin */
+      padding: 0; /* Reset padding */
+      position: fixed;
+      top: -200px; /* Adjust the top position to move it further above the viewport */
+      left: -110px; /* Adjust the left position to move it further to the left of the viewport */
+    opacity: 0.35;
+  
+  }
+  
+  .shift-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  #special-image2 {
+      width: 600px; /* Adjust the width as needed for a larger image */
+      height: 350px;
+      margin: 0; /* Reset margin */
+      padding: 0; /* Reset padding */
+      position: fixed;
+      bottom: -200px; /* Adjust the bottom position to move it further below the viewport */
+      right: -110px; /* Adjust the right position to move it further to the right of the viewport */
+      opacity: 0.35; 
+     z-index: 1500;  /* to go above footer */
+  }
+  
+  .corner-image{
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 300px; /* Adjust the max-width as needed */
+        margin-right: 40px; /* Add space to the right of each image */
+      padding: 50px; 
+    }
+  
+  #title-article {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    position: relative;
+    left: 3%;
+    top: -5px;
+  }
+  
+  #preview-article {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    left: 3%;
+    bottom: 20px; /* Adjust as needed */
+  }
+  
+  .list-item {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    position: relative;
+    right: -2%;
+    bottom: 40px;
+  }
+  
+  
+  #logo {
+    position: relative;
+    bottom: 50px;
+    left: 48px;
+  
+  }
+  
+  
+  #author{
+    font-family: "JetBrains Mono", monospace;
+    color: #CED6FF;
+    position: relative;
+    left: 75px;
+    bottom: 74px;
+    font-size: 8.6px;
+  }
+  
+  #logo-2 {
+    position: relative;
+    bottom: 95px;
+    left: 200px;
+  
+  }
+  
+  #tag{
+    font-family: "JetBrains Mono", monospace;
+    color: #CED6FF;
+    position: relative;
+    left: 225px;
+    bottom: 120px;
+    font-size: 8.6px;
+  }
+  
+  #community-title{
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    right: 9.2%;
+    bottom: 295px;
+  }
+  
+  br {
+    margin-left: 0; /* Remove the default indentation */
+  }
+  
+  #community {
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    right: 6.3%;
+    bottom: 295px;
+  }
+  
+  #community-new-line {
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    right: 9.3%;
+    bottom: 315px;
+  }
+  
+  #logo-3 {
+    position: relative;
+    bottom: 299px;
+    left: 455px;
+  
+  }
+  
+  #post{
+     font-family: "JetBrains Mono", monospace;
+      color: #CED6FF;
+      position: relative;
+      left: 480px;
+      bottom: 323px;
+      font-size: 8.6px;
+  }
+  
+  #logo-4 {
+    position: relative;
+    bottom: 345px;
+    left: 630px;
+  
+  }
+  
+  #recent-post{
+     font-family: "JetBrains Mono", monospace;
+      color: #CED6FF;
+      position: relative;
+      left: 650px;
+      bottom: 370px;
+      font-size: 8.6px;
+  }
+  
+  #educational-resources{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    position: relative;
+    left: 920px;
+    bottom: 545px
+  }
+  
+  #educational-text{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    position: relative;
+    left: 920px;
+    bottom: 550px;
+  }
+  
+  #logo-5 {
+    position: relative;
+    bottom: 515px;
+    left: 920px; 
+    color: #e392fe;
+  
+  }
+  
+  
+  
+  
+  #explore-text{
+    font-family: "JetBrains Mono", monospace;
+    color: #CED6FF;
+    position: relative;
+    left: 945px;
+    bottom: 545px;
+    font-size: 8.6px;
+  }
+  
+  #logo-6 {
+    position: relative;
+    bottom: 580px;
+    left: 1130px;
+  
+  }
+  #last-post{
+    font-family: "JetBrains Mono", monospace;
+    color: #CED6FF;
+    position: relative;
+    left: 1150px;
+    bottom: 605px;
+    font-size: 8.6px;
+  }
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #11113A; /* Adjust to match your website's color scheme */
+      color: white; /* Adjust to match your website's color scheme */
+      text-align: center;
+      padding: 1px 0; /* Adjust padding as needed */
+      z-index: 1000; /* Set a higher z-index to ensure the footer appears above other elements */
+  }
+  
+  .footer p {
+      font-family: Arial, sans-serif;
+      font-size: 10px; /* Adjust font size */
+      font-weight: bold;
+  }
+  /*buttons*/
+  .footer a {
+      text-decoration: none; /* Remove underline */
+      font-family: "Jura", sans-serif;
+      background-color: transparent;
+      color: whitesmoke;
+      border: 1px solid  #5566B8;
+      padding: 3px 4px; /* Adjust padding */
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 10px; /* Adjust font size */
+      display: inline-block;
+      margin-top: 1px;
+  }
+  .footer ul {
+      list-style-type: none; /* Remove bullet points */
+      padding: 0;
+  }
+  
+  .footer li {
+      display: inline-block; /* Display links side by side */
+      margin-right: 10px; /* Add space between links */
+  }
+  
+  .footer a:hover {
+      text-decoration: underline; /* Add underline on hover */
+  }
+  /* Style for iframe */
+  /* Additional styles for iframe */
+  iframe {
+      max-width: 560px; /* Set the maximum width for the iframe */
+      width: 100%; /* Ensure the iframe takes the full width of its container */
+      height: 315px; /* Set the height of the iframe */
+      display: block; /* Make the iframe a block element */
+      margin: 0 auto; /* Center the iframe horizontally */
+      position: relative; /* Set the position to relative for fine-tuned positioning */
+      bottom: 500px; /* Move the iframe up 50px */
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Add a box shadow for a visual effect */
+  }
+  
+  /* Additional styles for the iframe */
+  iframe:hover {
+      transform: scale(1.02); /* Scale the iframe on hover */
+  }
+  
+  #video-summary{
+    position: relative; 
+    text-align: center;/* Indent the text inside video-summary to align with each other */
+    font-family: "Jura", sans-serif;
+    background-color: transparent;
+    bottom: 500px;
+    
+    
+  }
+  
+  #forum {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    position: relative;
+    bottom: 420px; /* Adjust this value as needed to increase or decrease spacing */
+    border-bottom: 2px solid #5566B8; /* Purple line */
+    padding-bottom: 10px; /* Adding space between bottom border and text */
+  }
+  
+  #Get-involved {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    position: relative;
+    bottom: 200px; /* Adjust this value as needed to increase or decrease spacing */
+    border-bottom: 2px solid #5566B8; /* Purple line */
+    padding-bottom: 10px; /* Adding space between bottom border and text */
+  }
+  .nav-bar a {
+    text-decoration: none; /* Remove underline */
+    outline: none; /* Remove outline */
+    border: none; /* Remove border */
+    /* Add any other styles you need */
+  }
+  .header-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from parent */
+  }
+  /* Add style to button */
+  #theme-button {
+    font-family: "Jura", sans-serif;
+      background-color: transparent;
+      color: white;
+      border: 1px solid #5566B8;
+      padding: 8px 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      margin: 5px;
+      font-size: 16px;
+      display: inline-block;  
+      margin-top: 10px;
+  }
+  
+  #theme-button:hover{
+        color: white;
+        background-color: black;
+    }
+  
+  
+  /* Customize Dark Mode Theme */
+  
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+  
+  
+  
+  .petition{
+    padding-bottom: 100px;
+    margin-top: -210px; 
+  }
+  
+  #petition-para{
+    font-family: "Jura", sans-serif;
+    background-color: transparent;
+  }
+  
+  #personal-info{
+    font-family: "Jura", sans-serif;
+    background-color: transparent;
+    
+  }
+  
+  #sign-now-button{
+     font-family: "Jura", sans-serif;
+      background-color: transparent;
+      color: white;
+      border: 1px solid #5566B8;
+      padding: 8px 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      margin: 5px;
+      font-size: 10x;
+      display: inline-block; 
+    position: relative;
+      bottom: 90px;
+  }
+  #sign-now-button:hover {
+      color: black;
+      background-color: #F9EAF5;
+  }
+  
+  #counter{
+     font-family: "Jura", sans-serif;
+     position: absolute;
+     top: 1645px;
+     left: 890px;
+  }
+  
+  .signatures{
+    font-family: "Jura", sans-serif;
+     position: absolute;
+     top: 1680px;
+     left: 900px;
+  }
+  
+  #forum-1{
+    font-family: "Jura", sans-serif;
+    font-size: 14px;
+     position: absolute;
+     top: 1273px;
+    padding-left: 30px;
+  }
+  
+  #highlight-1{
+   color:#e392fe;
+  }
+  #forum-2{
+    font-family: "Jura", sans-serif;
+    font-size: 14px;
+     position: absolute;
+     top: 1272px;
+    padding-left: 400px;
+  }
+  
+  #highlight-2{
+   color:#e392fe;
+    
+  }
+  
+  .involved{
+    position: relaive;
+    padding-top: 100px;
+  }
+  
+  #forum-3{
+    font-family: "Jura", sans-serif;
+    font-size: 14px;
+     position: absolute;
+     top: 1272px;
+    padding-left: 820px;
+    
+  }
+  
+  #highlight-3{
+   color:#e392fe;
+    padding-left: 100px;
+  }
+  
+  .revealable {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .revealable.active {
+    opacity: 1;
+  }
+  
+  #reduce-motion-button{
+    font-family: "Jura", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #5566B8;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    display: inline-block;  
+    margin-top: 10px;
+  }
+  
+  #reduce-motion-button:hover {
+      color: black;
+      background-color: #F9EAF5;
+  }
+  
+  /* the modal that covers the background and prevents user interactions */
+  .modal {
+    display: none; /* hides the modal from view by default*/
+    position: fixed; /* keeps the modal in one place */
+    z-index: 2; /* positions the modal on top of all other elements on the screen */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+    flex-direction: column; /* these flexbox rules center the content on the screen */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* box that contains all the content and images */
+  .modal-content {
+    background-color: mediumpurple; /* update the colors and font sizes as you like */
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    display: flex; /* adds flexbox to center all items */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #thanks-modal-content {
+    font-family: Arial, sans-serif; /* Specify your desired font family */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: white; /* Set the text color */
+  white-space: pre-line; /* Preserve newline characters */
+  }
+  
+  
+  #modal-text-container {
+    display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #modal-img {
+      width: 100%;
+      max-width: 400px; /* Adjust the maximum width as needed */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #modal-button{
+    font-family: "Jura", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #5566B8;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    display: inline-block;  
+    margin-top: 10px;
+  }
